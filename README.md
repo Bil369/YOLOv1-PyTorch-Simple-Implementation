@@ -6,7 +6,7 @@
 
 本仓库是自己阅读 YOLOv1 论文时对其进行的复现，使用了 PyTorch 的预训练 ResNet-50作为 backbone，并修改了最后的全连接层。在 PASCAL VOC 2007 数据集上进行训练，迭代了136轮，loss 下降到7.41.
 
-![检测结果](https://wx2.sbimg.cn/2020/05/14/testImage_result.jpg)
+![检测结果](testImage_result.jpg)
 
 在 PASCAL VOC 2007 数据集上进行测试，最终 mAP 值为 21.6%.
 
